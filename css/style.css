@@ -1,0 +1,102 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/beyond_the_mountains.ttf);
+}
+@font-face {
+  font-family: myFirstFont1;
+  src: url(../fonts/bahaus.otf);
+}
+@font-face {
+  font-family: poppin;
+  src: url(../fonts/Poppins-Italic.otf);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.nav.navbar-nav{
+	padding-right: 25px;
+}
+nav{
+	position: fixed!important;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.nav.navbar-nav .nav-item{
+	padding-right: 15px;
+}
+
+.home_section{
+	height: 100%;
+	background: url(../images/backgroundjpeg.jpeg);
+	height: 100%;
+	background-size: cover;
+	z-index: 1;
+	background-attachment: fixed;
+	position: relative;
+}
+.home-content{
+	color: #fff;
+}
+.home-content h1{
+	font-family: myFirstFont;
+}
+
+/*about section*/
+#about_section{
+	padding-top: 60px;
+}
+.my_image{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#about_section h3.heading{
+	padding-bottom: 5px;
+	font-family: myFirstFont1;
+}
+p.about_me {
+	font-family: 'poppin', sans-serif;
+	padding: 30px;
+    font-size: 18px;
+    color: #333;
+}
+
+.skills-section{
+	padding-top: 70px;
+	background: #F9F9F9;
+}
+.skills-section .skill-detail {
+    border-radius: 4px;
+    border-bottom-right-radius: 20%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    top: 0px;
+    padding: 60px 40px 60px 40px;
+    margin-top: 32px;
+}
+
+
+.footer-section {
+    background: #1f0733;
+    padding: 80px 0px;
+    color: #f8f8f8;
+    font-family: poppin;
+    margin-top: 30px;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.footer-section a {
+    color: #ffffff;
+}
